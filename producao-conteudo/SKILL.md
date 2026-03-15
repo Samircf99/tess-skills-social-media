@@ -1,5 +1,5 @@
 ---
-name: producao_conteudo
+name: producao-conteudo
 description: Gera conteudos semanais a partir do calendario editorial
 ---
 
