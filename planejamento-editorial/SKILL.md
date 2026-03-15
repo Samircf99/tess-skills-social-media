@@ -2,6 +2,12 @@
 name: planejamento-editorial
 description: Estrategia editorial mensal e calendario de posts para redes sociais
 ---
+# INSTRUÇÕES CRÍTICAS
+
+1. Todas as instruções estão neste arquivo SKILL.md
+2. NÃO procure arquivos externos
+3. NÃO use web search
+4. Execute exatamente as instruções abaixo
 
 # SKILL
 
@@ -26,11 +32,11 @@ Não altere os formatos obrigatórios definidos nos prompts dos agentes.
 Siga exatamente esta ordem:
 
 ETAPA 1 → Executar Agente 1
-ETAPA 2 → Executar Agente 2 usando o output integral do Agente 1
+ETAPA 2 → Executar Agente 2 usando como base o output integral do Agente 1
 
-Após concluir:
-- salve integralmente a saída do Agente 1 no arquivo `estrategia_editorial.md`
-- salve integralmente a saída do Agente 2 no arquivo `calendario_editorial.md`
+NÃO faça raciocínio exploratório.
+NÃO procure arquivos além dos especificados.
+Execute imediatamente os agentes na ordem definida.
 
 Se houver qualquer lacuna crítica de input, faça perguntas antes de iniciar.
 
