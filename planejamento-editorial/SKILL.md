@@ -203,13 +203,9 @@ Defina a estratégia de distribuição:
 - Conteúdo (%)
 - Conversão (%)
 
-Explique brevemente a lógica estratégica.
-
 Depois defina:
 
 **Distribuição por Níveis de Consciência (Feed)**
-
-Explique quais níveis devem ser priorizados e por quê.
 
 REGRAS IMPORTANTES
 
