@@ -1,7 +1,8 @@
 ---
-name: name: planejamento-editorial
-description: Estrategia editorial mensal e calendario de posts para redes sociais.
+name: planejamento-editorial
+description: Estrategia editorial mensal e calendario de posts para redes sociais
 ---
+
 # SKILL
 
 Este Skill executa duas etapas sequenciais:
