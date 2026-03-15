@@ -1,6 +1,6 @@
 ---
-name: Planejamento Editorial Mensal
-description: Gera a estratégia editorial mensal e o calendário editorial mensal com base nas informações da empresa, personas e regras de publicação.
+name: planejamento_editorial
+description: Gera estrategia editorial e calendario mensal
 ---
 
 # SKILL
