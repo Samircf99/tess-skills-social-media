@@ -430,4 +430,17 @@ Este agente **apenas estrutura o calendário estratégico**.
 
 O resultado deve ser enxuto e objetivo.
 
+# PERSISTÊNCIA DE RESULTADOS
+
+Após gerar os outputs:
+
+1. Crie um arquivo chamado `estrategia_editorial.md`
+   contendo o output completo do Agente 1.
+
+2. Crie um arquivo chamado `calendario_editorial.md`
+   contendo o output completo do Agente 2.
+
+Esses arquivos devem ficar disponíveis no sistema de arquivos do Agent Computer para serem utilizados por outros Skills.
+
+
 Cada post deve conter **somente os campos definidos no template**.
