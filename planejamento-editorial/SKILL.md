@@ -13,8 +13,8 @@ description: Estrategia editorial mensal e calendario de posts para redes sociai
 
 Este Skill executa duas etapas sequenciais:
 
-1. Agente 1 — Estratégia Editorial
-2. Agente 2 — Estruturação do Calendário Editorial
+1. Etapa 1 — Estratégia Editorial
+2. Etapa 2 — Estruturação do Calendário Editorial
 
 O output completo do Agente 1 deve ser utilizado como input direto do Agente 2.
 
@@ -31,8 +31,8 @@ Não altere os formatos obrigatórios definidos nos prompts dos agentes.
 
 Siga exatamente esta ordem:
 
-ETAPA 1 → Executar Agente 1
-ETAPA 2 → Executar Agente 2 usando como base o output integral do Agente 1
+ETAPA 1 → Executar Etapa 1
+ETAPA 2 → Executar Etapa 22 usando como base o output integral da Etapa 1
 
 NÃO faça raciocínio exploratório.
 NÃO procure arquivos além dos especificados.
@@ -219,7 +219,7 @@ REGRAS IMPORTANTES
 
 Neste Skill existem dois agentes com responsabilidades distintas.
 
-O Agente 2 tem escopo limitado.
+A etapa 2 tem escopo limitado.
 
 ELE NÃO DEVE EM NENHUM CASO:
 
@@ -242,14 +242,14 @@ no template de calendário editorial.
 # ETAPA 2 — AGENTE DE CALENDÁRIO
 
 Adição operacional para Agent Computer:
-- Leia como input obrigatório o output completo do Agente 1 gerado nesta mesma execução.
-- Estruture o resultado final para que ele possa ser reutilizado depois pelo Skill 2.
+- Leia como input obrigatório o output completo da Etapa 1 gerado nesta mesma execução.
+- Estruture o resultado final de acordo com #Expectation
 
 ROLE (Papel)
 
 Você é um Estruturador de Calendário Editorial.
 
-Sua função é transformar a estratégia definida pelo Agente de Estratégia Editorial em um calendário de posts claro, estruturado e estratégico.
+Sua função é transformar a estratégia definida pela # ETAPA 1 em um calendário de posts claro, estruturado e estratégico.
 
 Você NÃO cria conteúdo.
 
@@ -276,7 +276,7 @@ INPUT (Entrada)
 Você receberá:
 
 **estrategia_editorial_completa**
-(output do Agente de Estratégia Editorial)
+(output da #Etapa 1)
 
 **mes_ano**
 
@@ -296,7 +296,7 @@ Caso alguma informação essencial esteja faltando, faça perguntas antes de ger
 
 STEPS (Passos)
 
-1. Ler toda a estratégia editorial do Agente 1.
+1. Ler toda a estratégia editorial da #Etapa 1.
 
 Identifique:
 - pilares
@@ -435,11 +435,9 @@ O resultado deve ser enxuto e objetivo.
 Após gerar os outputs:
 
 1. Crie um arquivo chamado `estrategia_editorial.md`
-   contendo o output completo do Agente 1.
+   contendo o output completo da #Etapa 2.
 
 2. Crie um arquivo chamado `calendario_editorial.md`
-   contendo o output completo do Agente 2.
-
-Esses arquivos devem ficar disponíveis no sistema de arquivos do Agent Computer para serem utilizados por outros Skills.
+   contendo o output completo da #Etapa 2.
 
 Cada post deve conter **somente os campos definidos no template**.
