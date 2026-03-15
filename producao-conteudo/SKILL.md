@@ -1,7 +1,8 @@
 ---
-name: Produção de Conteúdo
-description: Gera conceito criativo, ganchos, blueprint, legenda, CTA e direção de arte
+name: producao_conteudo
+description: Gera conteudos semanais a partir do calendario editorial
 ---
+
 
 # SKILL
 
