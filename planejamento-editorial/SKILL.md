@@ -1,6 +1,6 @@
 ---
-name: planejamento_editorial
-description: Gera estrategia editorial e calendario mensal
+name: skill-01-planejamento-editorial
+description: Estrategia editorial mensal e calendario de posts para redes sociais.
 ---
 
 # SKILL
